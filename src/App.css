@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+@font-face{
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Pacifico') url('Pacifico-Regular.ttf') format('ttf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face{
+  font-family: 'Product Sans Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Light') url('google.ttf') format('ttf');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::selection{
+  color: #140735;
+  background: white;
 }
 
 .App-header {
-  background-color: #282c34;
+  background: url('bg.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.NavBar{
+  background-color: #17093E;
+  box-shadow: 0px 2px 3px 0px rgba(29, 10, 78, 0.1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.NavBrand{
+  /* background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  font-family: 'Pacifico';
+}
+
+.RandomCard{
+  background-color: #140735;
+  height: 200px;
+  padding: 0 0 14px 0;
+  border-radius: 5px;
+}
+
+.Header{
+  margin-top: 30px;
+  border: 1px solid white;
+  /* padding: 15px; */
+  font-family: 'Product Sans Light';
+}
+
+.Header hr{
+  background-color: #F4F5F7 !important;
+  border: 0.9px solid #F4F5F7 !important;
 }
