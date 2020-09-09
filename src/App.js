@@ -39,8 +39,8 @@ class App extends Component {
                     <h1>Random Facts</h1>
                     <hr/>
                     <p className='pl-4 pr-4 pt-2'>
-                      {this.state.randomFacts.trivia}
-                      {/* 95% of people text things they could never say in person. */}
+                      {/* {this.state.randomFacts.trivia} */}
+                      95% of people text things they could never say in person.
                       </p>
                       <Button variant='outline-light' className='mb-3 mt-1' onClick={this.getFact}>
                           Get new fact
