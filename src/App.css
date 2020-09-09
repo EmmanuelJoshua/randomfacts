@@ -2,14 +2,14 @@
   font-family: 'Pacifico';
   font-style: normal;
   font-weight: normal;
-  src: local('Pacifico') url('Pacifico-Regular.ttf') format('ttf');
+  src: local('Pacifico'), url(./Pacifico-Regular.ttf) format('truetype');
 }
 
 @font-face{
   font-family: 'Product Sans Light';
   font-style: normal;
   font-weight: normal;
-  src: local('Product Sans Light') url('google.ttf') format('ttf');
+  src: local('Product Sans Light') url(./google.ttf) format('truetype');
 }
 
 ::selection{
