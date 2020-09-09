@@ -9,7 +9,7 @@
   font-family: 'Product Sans Light';
   font-style: normal;
   font-weight: normal;
-  src: local('Product Sans Light') url(./google.ttf) format('truetype');
+  src: local('Product Sans Light'), url(./google.ttf) format('truetype');
 }
 
 ::selection{
